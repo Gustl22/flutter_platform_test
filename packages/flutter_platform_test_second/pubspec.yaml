@@ -1,0 +1,36 @@
+name: flutter_platform_test_second
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+  flutter: ">=2.5.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  audioplayers_platform_interface: ^1.0.0-rc.2
+  audioplayers_android: ^1.0.0-rc.2
+  audioplayers_darwin: ^1.0.0-rc.4
+  audioplayers_linux: ^1.0.0-rc.3
+  audioplayers_web: ^1.0.0-rc.3
+  audioplayers_windows: ^1.0.0-rc.3
+  uuid: ^3.0.1
+  path_provider: ^2.0.1
+  http: ^0.13.1
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flame_lint:
+    git:
+      url: 'https://github.com/flame-engine/flame.git'
+      path: 'packages/flame_lint'
+  dartdoc: ^5.0.1
+
+flutter:
+  uses-material-design: true

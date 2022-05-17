@@ -19,9 +19,9 @@ jobs:
      - run: |
          dart pub global activate melos
          dart pub global run melos bootstrap
-     - name: Example App - Build windows app
-       run: |
-         flutter build windows --release
+#     - name: Example App - Build windows app
+#       run: |
+#         flutter build windows --release
 #     - name: Run Flutter Driver tests
 #       working-directory: ./example
 #       run: "flutter test -d windows integration_test"

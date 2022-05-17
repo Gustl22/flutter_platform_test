@@ -2,7 +2,7 @@ name: audioplayers
 repository: https://github.com/gustl22/flutter_platform_test
 
 packages:
-  - /**
+  - packages/**
 
 command:
   version:

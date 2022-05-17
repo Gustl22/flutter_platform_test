@@ -18,11 +18,8 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-  flame_lint:
-    git:
-      url: 'https://github.com/flame-engine/flame.git'
-      path: 'packages/flame_lint'
-  dartdoc: ^5.0.1
+  dartdoc:
+    git: 'https://github.com/dart-lang/dartdoc.git'
 
 flutter:
   uses-material-design: true

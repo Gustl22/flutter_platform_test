@@ -11,15 +11,6 @@ environment:
 
 dependencies:
   cupertino_icons: ^1.0.2
-  audioplayers_platform_interface: ^1.0.0-rc.2
-  audioplayers_android: ^1.0.0-rc.2
-  audioplayers_darwin: ^1.0.0-rc.4
-  audioplayers_linux: ^1.0.0-rc.3
-  audioplayers_web: ^1.0.0-rc.3
-  audioplayers_windows: ^1.0.0-rc.3
-  uuid: ^3.0.1
-  path_provider: ^2.0.1
-  http: ^0.13.1
   flutter:
     sdk: flutter
 
